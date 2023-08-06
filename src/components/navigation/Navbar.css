@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    border: 5px;
+    padding: 10px;
+    background-image: url('/src/assets/background.jpg');
+    opacity: 96%;
+  }
+  
+  .navbar-logo a {
+    font-size: 36px;
+    text-decoration: none;
+    color: rgb(8, 219, 242);
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: cyan;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-links li a:hover {
+    color: #007bff;
+  }
+  
+  /* Add more styling as needed */
+  
